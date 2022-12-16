@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button, a{
+    cursor: pointer;
+}
+
+
+
 #header{
     width: 100%;
     height: 80px;
@@ -29,15 +40,56 @@
 #logo>a>img{
     width: 100%;
 }
-#categories button{
-    background-color: white;
+
+
+
+
+.wrapper{
+    width: 100px;
+    margin: 0 auto;
 }
-#categories{
+.menu-button{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
     border: none;
-    background-color: white;
 }
+.right-menu{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    min-width: 300px;
+    z-index: 1;
+    padding: 30px 30px 30px 30px;
+}
+.dropdown-menu a{
+    display: block;
+    margin: 12px 0px 12px 0px;
+}
+.dropdown-menu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
+}
+.right-menu:hover .menu-button{
+    background-color: transparent;
+}
+
+
+
 #search-box{
-    width:70%;
+    width:60%;
     height: 35px;
     margin: auto;
     display: flex;
@@ -52,6 +104,73 @@
 }
 
 
+
+
+
+.wrapper-2{
+    width: 100px;
+    margin: 0 auto;
+}
+.menu-button-2{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.right-menu-2{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdown-menu-2{
+    display: none;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    min-width: 160px;
+    z-index: 1;
+    padding: 30px 30px 30px 30px;
+}
+.dropdown-menu-2 h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.dropdown-menu-2 button{
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+.dropdown-menu-2 a{
+    display: inline-block;
+    margin: 12px 0px 12px 0px;
+}
+.dropdown-menu-2 a:hover{
+    text-decoration: blue;
+}
+.right-menu-2:hover .dropdown-menu-2{
+    display: block;
+}
+.right-menu-2:hover .menu-button-2{
+    background-color: transparent;
+}
+
+
+
+
+
+
 #login button{
     background-color: white;
     color: black;
@@ -61,13 +180,23 @@
     padding: 10px 15px 10px 15px;
     border: 1px solid grey;
 }
-
+#login button:hover{
+    color: white;
+    background-color: black;
+}
 #signup button{
     background-color: black;
     color: white;
     font-size: 18px;
     font-weight: bold;
-    border: none;
+    border: 1px solid black;
     padding: 10px 10px 10px 10px;
 }
+#signup button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
 
