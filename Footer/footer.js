@@ -38,7 +38,7 @@ function footer(){
               alt="UdemyLogo"
           /></a>
         </div>
-        <div>c-2022 Udemy, Inc.</div>
+        <div><span>&#169<span>-2022 Udemy, Inc.</div>
       </div>
     </div>
 `

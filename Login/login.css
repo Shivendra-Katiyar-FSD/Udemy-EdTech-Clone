@@ -1,10 +1,10 @@
 #container{
     width: 35%;
     margin: auto;
-    margin-top: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 40px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
     text-align: center;
-    padding-top: 1px;
+    padding-top: 20px;
     padding-bottom: 1px;
 }
 h1{
@@ -25,16 +25,30 @@ h1+p{
     justify-content: center;
     align-items: center;
 }
-
+#form>label{
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+}
 #form>input{
-    height: 30px;
+    height: 55px;
     width: 90%;
+    font-size: 18px;
+}
+form>p{
+    margin: 10px 0px 10px 0px;
 }
 input[id="password"]+p{
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
+}
+input::placeholder{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
 }
 p a{
     color: teal;
@@ -43,11 +57,12 @@ p a{
     height: 40px;
     font-size: 20px;
     color: white;
-    background-color: rgb(18, 73, 73);
+    background-color: #8710D8;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 #form>input:last-child:hover{
-    color: rgb(18, 73, 73);
-    background-color: rgb(207, 198, 198);
+    background-color: #900de7;
 }
 
 #container>div{
@@ -56,6 +71,7 @@ p a{
     /* border: 1px solid green; */
     margin-bottom: 30px;
 }
+
 #conatainer>div>a{
     text-decoration: none;
 }
@@ -63,11 +79,21 @@ div button{
         height: 40px;
         width: 100%;
         font-size: 20px;
-        color: rgb(18, 73, 73);
+        color: #8710D8;
         background-color: rgb(223, 213, 213);
 }
 
 div button:hover{
     color: rgb(223, 213, 213);
     background-color: rgb(18, 73, 73);;
+}
+li{
+    list-style-type: none;
+}
+li>input{
+    margin: 20px 0px 20px 0px;
+}
+form+h3>a{
+    text-decoration: underline;
+    color: #401BB6;
 }
