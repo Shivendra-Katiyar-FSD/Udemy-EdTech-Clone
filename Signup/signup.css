@@ -45,6 +45,7 @@ input[id="password"]+p{
 input::placeholder{
     font-size: 18px;
     font-weight: bold;
+    padding-left: 20px;
 }
 p a{
     color: teal;

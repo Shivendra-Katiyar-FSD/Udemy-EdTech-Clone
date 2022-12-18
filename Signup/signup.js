@@ -20,7 +20,7 @@ function signUP(event){
         signUpArray.push(signUpObj);
         localStorage.setItem("userData", JSON.stringify(signUpArray));
         alert("Sign Up Successful, You can Log In Now :)")
-        window.location.href="signIn.html"
+        window.location.href="../Login/login.html"
     }
     else{
         alert("Account already exits !! Please use a different Email to create a new User Account");

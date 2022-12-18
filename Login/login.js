@@ -16,7 +16,7 @@ function signIn(event){
     if(checkLoginCredentials(signInObj.email, signInObj.password)===true){
         localStorage.setItem("credentials", JSON.stringify(signInObj));
         alert("Sign In Successfull :)");
-        window.location.href="index.html";
+        window.location.href="../Home/index.html";
     }
     else{
         alert("Wrong Credentials !!");
