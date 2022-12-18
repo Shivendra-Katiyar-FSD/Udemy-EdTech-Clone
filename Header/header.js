@@ -1,7 +1,7 @@
 function header(){
     return `<div id="header">
     <div id="logo">
-      <a href="" target="_blank">
+      <a href="../Home/index.html" target="_self">
         <img
           src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
           alt="UdemyLogo"
@@ -68,10 +68,10 @@ function header(){
       >
     </div>
     <div id="login">
-      <a href=""><button>LogIn</button></a>
+      <a href="../Login/login.html"><button>LogIn</button></a>
     </div>
     <div id="signup">
-      <a href=""><button>SignUp</button></a>
+      <a href="../Signup/signup.html"><button>SignUp</button></a>
     </div>
   </div>
 `
