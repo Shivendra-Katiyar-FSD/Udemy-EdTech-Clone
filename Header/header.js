@@ -68,10 +68,10 @@ function header(){
       >
     </div>
     <div id="login">
-      <a href="../Login/login.html"><button>LogIn</button></a>
+      <a href="../Login/login.html" target="_self"><button>LogIn</button></a>
     </div>
     <div id="signup">
-      <a href="../Signup/signup.html"><button>SignUp</button></a>
+      <a href="../Signup/signup.html" target="_self"><button>SignUp</button></a>
     </div>
   </div>
 `
