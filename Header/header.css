@@ -60,7 +60,7 @@ button, a{
 .right-menu{
     position: relative;
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 .dropdown-menu{
     display: none;
