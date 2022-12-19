@@ -67,6 +67,13 @@ function header(){
         </div></a
       >
     </div>
+    <div id="wishlist">
+      <a href=""
+        ><div>
+          <span class="material-symbols-outlined"> favorite </span>
+        </div></a
+      >
+    </div>
     <div id="login">
       <a href="../Login/login.html" target="_self"><button>LogIn</button></a>
     </div>
