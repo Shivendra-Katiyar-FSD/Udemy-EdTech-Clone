@@ -123,7 +123,7 @@ button, a{
 .right-menu-2{
     position: relative;
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 .dropdown-menu-2{
     display: none;
