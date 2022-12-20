@@ -60,7 +60,7 @@ function navigationMenu(){
             <a href="">Personal Transformation</a>
             <a href="">Personal Productivity</a>
             <a href="">Career Development</a>
-            <a href="">Parenting & Relationship</a>
+            <a href="">Parenting</a>
         </div>
     </div>
 
@@ -77,8 +77,8 @@ function navigationMenu(){
     <div class="right-menu3">
         <button class="menu-button3">Marketing</button>
         <div class="dropdown-menu3">
-            <a href="">Digital Marketing</a>
-            <a href="">Network Marketing</a>
+            <a href="">Marketing</a>
+            <a href="">Networking</a>
             <a href="">Social Media</a>
             <a href="">Branding</a>
         </div>
@@ -90,7 +90,7 @@ function navigationMenu(){
             <a href="">Fitness</a>
             <a href="">General Health</a>
             <a href="">Sports</a>
-            <a href="">Nutrition & Diet</a>
+            <a href="">Yoga</a>
         </div>
     </div>
 
@@ -98,7 +98,6 @@ function navigationMenu(){
         <button class="menu-button3">Music</button>
         <div class="dropdown-menu3">
             <a href="">Instruments</a>
-            <a href="">Music</a>
             <a href="">Techniques</a>
         </div>
     </div>
