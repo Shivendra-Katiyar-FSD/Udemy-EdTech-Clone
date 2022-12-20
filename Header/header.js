@@ -19,11 +19,8 @@ function header(){
           <a href="">Personal Development</a>
           <a href="">Design</a>
           <a href="">Marketing</a>
-          <a href="">Lifestyle</a>
-          <a href="">Photography & Video</a>
           <a href="">Health & Fitness</a>
           <a href="">Music</a>
-          <a href="">Teaching & Academics</a>
         </div>
       </div>
     </div>
