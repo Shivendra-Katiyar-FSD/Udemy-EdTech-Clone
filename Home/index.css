@@ -4,3 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+#navigation-menu{
+    z-index: 5;
+}
+#slide{
+    z-index: 0;
+}

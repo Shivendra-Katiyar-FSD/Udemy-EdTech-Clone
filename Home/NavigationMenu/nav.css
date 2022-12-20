@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+.wrapper3{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    border-top: 1px solid rgb(196, 192, 192);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.wrapper3>div{
+    /* border: 1px solid red; */
+    font-size: 14px;
+}
+.menu-button3{
+    background-color: transparent;
+    color: black;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+/* .right-menu3{
+    position: relative;
+    display: inline-block;
+    float: left;
+} */
+.dropdown-menu3{
+    margin: auto;
+    display: none;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    min-width: 300px;
+    z-index: 1;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+}
+.dropdown-menu3 a{
+    display: inline;
+    margin: 12px 0px 12px 0px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dropdown-menu3 a:hover{
+    color: #CEC0FC;
+    text-decoration: none;
+}
+.right-menu3:hover .dropdown-menu3{
+    width: 100%;
+    display: block;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: -10%;
+}
+.right-menu3:hover .menu-button3{
+    background-color: transparent;
+}
+
+
+
+

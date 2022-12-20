@@ -10,11 +10,14 @@
     />
     <link rel="stylesheet" href="../Header/header.css">
     <link rel="stylesheet" href="../Footer/footer.css">
-    <link rel="stylesheet" href="../Home//Slider/slider.css">
+    <link rel="stylesheet" href="./NavigationMenu/nav.css">
+    <link rel="stylesheet" href="./Slider/slider.css">
     <title>Udemy-Home</title>
 </head>
 <body>
     <div id="navbar"></div>
+
+    <div id="navigation-menu"></div>
 
     <div id="slide"></div>
 
@@ -30,6 +33,8 @@
     import footer from "../Footer/footer.js"
     document.getElementById("foot").innerHTML=footer();
     import {slider, autoSlide} from "./Slider/slider.js";
-  document.getElementById('slide').innerHTML = slider();
-  autoSlide();
+    document.getElementById('slide').innerHTML = slider();
+    autoSlide();
+    import navigationMenu from "./NavigationMenu/nav.js";
+    document.getElementById('navigation-menu').innerHTML = navigationMenu();
 </script>
