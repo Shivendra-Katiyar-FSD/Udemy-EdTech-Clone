@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link       
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
@@ -15,6 +19,10 @@
     <link rel="stylesheet" href="./Slider/slider.css">
     <link rel="stylesheet" href="./Home-Content/Development/style.css">
     <link rel="stylesheet" href="./Home-Content/Development/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Home-Content/Business/style.css">
+    <link rel="stylesheet" href="./Home-Content/Business/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Home-Content/Finance/style.css">
+    <link rel="stylesheet" href="./Home-Content/Finance/swiper-bundle.min.css">
     <title>Udemy-Home</title>
 </head>
 <body>
@@ -50,17 +58,17 @@
     import navigationMenu from "./NavigationMenu/nav.js";
     document.getElementById('navigation-menu').innerHTML = navigationMenu();
 
-    import {development, swiper} from "./Home-Content/Development/script.js";
+    import {development, swiperDev} from "./Home-Content/Development/script.js";
     document.getElementById('development').innerHTML = development();
-    swiper();
+    swiperDev();
 
-    // import {business, swiper} from "./Home-Content/Business/script.js";
-    // document.getElementById('business').innerHTML = business();
-    // swiper();
+    import {business, swiperBus} from "./Home-Content/Business/script.js";
+    document.getElementById('business').innerHTML = business();
+    swiperBus();
 
-    // import {finance, swiper} from "./Home-Content/Finance/script.js";
-    // document.getElementById('finance').innerHTML = finance();
-    // swiper();
+    import {finance, swiperFin} from "./Home-Content/Finance/script.js";
+    document.getElementById('finance').innerHTML = finance();
+    swiperFin();
 
     // import {fitness, swiper} from "./Home-Content/Fitness/script.js";
     // document.getElementById('fitness').innerHTML = fitness();
@@ -70,3 +78,12 @@
     // document.getElementById('office').innerHTML = office();
     // swiper();
 </script>
+
+<script src="./Home-Content/Development/swiper-bundle.min.js"></script>
+<script src="./Home-Content/Development/script.js"></script>
+
+<script src="./Home-Content/Business/script.js"></script>
+<script src="./Home-Content/Business/swiper-bundle.min.js"></script>
+
+<script src="./Home-Content/Finance/script.js"></script>
+<script src="./Home-Content/Finance/swiper-bundle.min.js"></script>

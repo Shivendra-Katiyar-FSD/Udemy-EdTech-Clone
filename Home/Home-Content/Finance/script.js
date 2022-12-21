@@ -280,7 +280,7 @@ function finance(){
 }
 
 
-function swiper(){
+function swiperFin(){
   var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -318,4 +318,4 @@ function swiper(){
   });
 }
 
-export {finance, swiper};
+export {finance, swiperFin};
