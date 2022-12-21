@@ -55,12 +55,12 @@
     import footer from "../Footer/footer.js"
     document.getElementById("foot").innerHTML=footer();
 
+    import navigationMenu from "./NavigationMenu/nav.js";
+    document.getElementById('navigation-menu').innerHTML = navigationMenu();
+
     import {slider, autoSlide} from "./Slider/slider.js";
     document.getElementById('slide').innerHTML = slider();
     autoSlide();
-
-    import navigationMenu from "./NavigationMenu/nav.js";
-    document.getElementById('navigation-menu').innerHTML = navigationMenu();
 
     import {development, swiperDev} from "./Home-Content/Development/script.js";
     document.getElementById('development').innerHTML = development();
