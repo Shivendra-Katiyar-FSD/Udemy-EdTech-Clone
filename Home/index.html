@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="./Home-Content/Business/swiper-bundle.min.css">
     <link rel="stylesheet" href="./Home-Content/Finance/style.css">
     <link rel="stylesheet" href="./Home-Content/Finance/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Home-Content/Fitness/style.css">
+    <link rel="stylesheet" href="./Home-Content/Fitness/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Home-Content/Office/style.css">
+    <link rel="stylesheet" href="./Home-Content/Office/swiper-bundle.min.css">
     <title>Udemy-Home</title>
 </head>
 <body>
@@ -36,8 +40,8 @@
         <div id="development"></div>
         <div id="business"></div>
         <div id="finance"></div>
-        <div id="fitness"></div>
         <div id="office"></div>
+        <div id="fitness"></div>
     </div>
 
     <div id="foot"></div>
@@ -70,20 +74,28 @@
     document.getElementById('finance').innerHTML = finance();
     swiperFin();
 
-    // import {fitness, swiper} from "./Home-Content/Fitness/script.js";
-    // document.getElementById('fitness').innerHTML = fitness();
-    // swiper();
+    import {office, swiperOfc} from "./Home-Content/Office/script.js";
+    document.getElementById('office').innerHTML = office();
+    swiperOfc();
 
-    // import {office, swiper} from "./Home-Content/Office/script.js";
-    // document.getElementById('office').innerHTML = office();
-    // swiper();
+    import {fitness, swiperFit} from "./Home-Content/Fitness/script.js";
+    document.getElementById('fitness').innerHTML = fitness();
+    swiperFit();
 </script>
 
-<script src="./Home-Content/Development/swiper-bundle.min.js"></script>
+
 <script src="./Home-Content/Development/script.js"></script>
+<script src="./Home-Content/Development/swiper-bundle.min.js"></script>
 
 <script src="./Home-Content/Business/script.js"></script>
 <script src="./Home-Content/Business/swiper-bundle.min.js"></script>
 
 <script src="./Home-Content/Finance/script.js"></script>
 <script src="./Home-Content/Finance/swiper-bundle.min.js"></script>
+
+<script src="./Home-Content/Office/script.js"></script>
+<script src="./Home-Content/Office/swiper-bundle.min.js"></script>
+
+<script src="./Home-Content/Fitness/script.js"></script>
+<script src="./Home-Content/Fitness/swiper-bundle.min.js"></script>
+

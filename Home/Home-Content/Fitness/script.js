@@ -280,7 +280,7 @@ function fitness(){
 }
 
 
-function swiper(){
+function swiperFit(){
   var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -318,4 +318,4 @@ function swiper(){
   });
 }
 
-export {fitness, swiper};
+export {fitness, swiperFit};
