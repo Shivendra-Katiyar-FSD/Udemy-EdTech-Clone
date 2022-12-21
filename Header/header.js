@@ -38,7 +38,7 @@ function header(){
         <button class="menu-button-2">Udemy Business</button>
         <div class="dropdown-menu-2">
           <h2>
-            Get your team access to our top 19,000 top Udemy Courses, anutime,
+            Get your team access to our top 19,000 top Udemy Courses, anytime,
             anywhere.
           </h2>
           <button>Try Udemy Business</button>
